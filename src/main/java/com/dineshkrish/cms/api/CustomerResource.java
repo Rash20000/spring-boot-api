@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping(value = "/customers") //brokerage-transaction-v2
+@RequestMapping(value = "/customers") //rename
 public class CustomerResource {
     ObjectMapper mapper = new ObjectMapper();
 
