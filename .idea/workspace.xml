@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="674e1e11-334b-414f-84d5-a48377c2b2c6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/CmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/CmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/api/ErrorHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/config/MyFilterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/exception/ApplicationError.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/exception/CustomerNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/filter/MyFilter_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/filter/MyFilter_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/filter/MyFilter_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/filter/MyNewFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/api/CustomerResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dineshkrish/cms/api/CustomerResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dineshkrish/cms/api/CustomerResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dineshkrish/cms/api/CustomerResource.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +37,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Work_stuff/projects/apache_camel/Java-Techie-jt/cms"
   }
 }]]></component>
   <component name="RunManager">

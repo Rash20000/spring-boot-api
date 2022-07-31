@@ -4,19 +4,25 @@ import com.dineshkrish.cms.model.Customer;
 import com.dineshkrish.cms.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 
 @RestController
-@RequestMapping(value = "/customers")
+@RequestMapping(value = "/customers") //brokerage-transaction-v2
 public class CustomerResource {
+    ObjectMapper mapper = new ObjectMapper();
 
     @Autowired
     private CustomerService customerService;
 
-    @PostMapping
-    public Customer addCustomer(@RequestBody Customer customer) {
-        return customerService.addCustomer(customer);
+    @PostMapping(value = "/{route}")
+    public void addCustomer(@PathVariable String route,@RequestBody String data) throws IOException {
+        Map map = mapper.readValue(data, Map.class);
+
+        System.out.println("route\t"+route+"\tdata\t:"+map);
     }
 
     @GetMapping
